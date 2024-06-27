@@ -1,16 +1,17 @@
 
 import {BrowserRouter as Router , Route, Routes} from 'react-router-dom'
-import Home from './components/Home'
-import Header from './components/Header'
-import Coins from './components/Coins'
-import Exchanges from './components/Exchanges'
-import CoinDetails from './components/CoinDetails'
+import Home from './Components/Home.jsx'
+import Header from './Components/Header.jsx'
+import Coins from './Components/Coins.jsx'
+import Exchanges from './Components/Exchanges.jsx'
+import CoinDetails from './Components/CoinDetails.jsx'
 
 
 function App() {
 
   return (
    <Router>
+    <Header/>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/coins' element={<Coins/>}/>
