@@ -11,4 +11,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </ChakraProvider> 
   </React.StrictMode>,
 )
-export const server = 
+// export const server = 
